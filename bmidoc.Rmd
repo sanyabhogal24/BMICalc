@@ -1,0 +1,20 @@
+---
+title: "BMI"
+author: "Sanya B"
+date: "Sunday, June 21, 2015"
+output: html_document
+runtime: shiny
+---
+
+The purpose of this application is to calcuate the Body Mass Index (BMI) of a person given his/her height and weight.
+
+To run the application, go to [BMI Calculator](https://sanya14.shinyapps.io/BMICalc).
+
+## Inputs
+
+The user must enter his/her height in feet and inches and weight in kilograms(kgs) in the three numeric input fields provided. Minimum and maximum values have been set for each of the numeric input field and default values have been assigned. On load of the application, the defaut values are displayed in the respective numeric fields along with the calculated BMI for those values.
+
+## Output
+Body Mass Index is calculated as **(Weight in kg)/(Height in metres x Height in metres)**
+
+It is calculated for the inputted values of height and weight by the user. On click of the Submit button the BMI is recalculated and the value is displayed to the user.
